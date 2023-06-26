@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BFEFFF;
+    padding: 15px;
+}
+
+#header img{
+    padding-left: 65px;
+    width: 375px;
+}
+
+#barra {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+#barra a {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #faf0e6;
+    background-size: cover;
+    background-position: top center;
+    background: url('Banner\ do\ YouTube\ Notícias\ Gerais\ Azul-escuro\ Vermelho\ Branco.png') top center/cover;  
+    text-align: center;
+}
+
+#banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 98%;
+    gap: 10px;
+    padding: 60px 60px;
+}
+
+#noticias {
+    background-color: #B0E0E6; 
+}
+
+#titulo {
+    padding: 15px 85px;
+    font-family: 'Lato';
+    color: #1c1c1c;
+    font-size: 25px;
+}
+
+#noticias1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+#noticias2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 80px;
+}
+
+.tema {
+    width: 300px;
+    font-family: 'Lato';
+    background-color: #b3b3b38a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+
+.tema h4 {
+    font-size: 17px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.tema button {
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    background-color: #8B8B83;
+    padding: 5px;
+    color: #FAFAD2;
+    font-family: 'Lato';
+    font-weight: 700;
+    border: 1px solid #FAFAD2;
+}
+
+.verMais {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B0E0E6;
+}
+
+.botao-verMais {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FAFAD2;
+    background-color: #8B8B83;
+    padding: 10px;
+    width: 250px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 2px;
+    border: 1px solid #FAFAD2;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color:#B0E0E6;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Lato'; 
+    border: 2px solid #000;
+    font-size: 14px;
+}
+
+#rodape img {
+    width: 400px;
+}
+
+#rodape2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    padding: 10px;
+    background-color: #000;
+    color: #d9d9d9;
+    font-size: 20px;
+}
